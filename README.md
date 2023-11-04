@@ -2,6 +2,12 @@
 
 Bookmarkletとして使うjsのコード置き場
 
+## amazon-book-scanner-for-scrapbox
+Amazonの書籍ページで実行する。
+書籍情報を反映した読書メモページがscrapbox上に作成される。
+
+## 開発用メモ
+
 ### 開発環境準備
 ```shell
 npm install terser
