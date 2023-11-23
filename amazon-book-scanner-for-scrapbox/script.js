@@ -18,6 +18,6 @@ Array.from(bookInfo.children).forEach(function (elem) {
         pageBodyArray.push('発売日', `\\t${date}`);
     }
 });
-pageBodyArray.push('読了日', "\\t", '', 'メモ', '\\t', '', '#読書記録');
+pageBodyArray.push('読了日', "\\t", '', 'メモ', '\\t', '', '気付き・感想', '\\t', '', '#読書記録');
 const pageBody = pageBodyArray.join("\\n");
 window.open(`https://scrapbox.io/${PROJECT_NAME}/${encodeURIComponent(pageTitle)}?body=${encodeURIComponent(pageBody)}`);
