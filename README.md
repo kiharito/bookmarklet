@@ -6,8 +6,8 @@ Bookmarkletとして使うjsのコード置き場
 Amazonの書籍ページで実行する。
 書籍情報を反映した読書メモページがscrapbox上に作成される。
 
-## copy-page-title
-ページタイトルをクリップボードにコピーする。
+## copy-page-link-for-scrapbox
+実行したページからscrapbox用の外部リンクテキスト(`[title url]`)を取得してクリップボードに残す。
 
 ## 開発用メモ
 
